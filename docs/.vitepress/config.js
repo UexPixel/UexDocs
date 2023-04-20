@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/',
   logo: '/logo.svg',
   title: "UexDocs",
   description: "UexPixel 文档存放处",
@@ -81,10 +82,13 @@ export default defineConfig({
         },
         link: 'https://UexPixel.com'
       },
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/UexPixel/UexDocs' },
     ],
     
+    lastUpdated: true,
     lastUpdatedText: '上次更新',
+    
+    cleanUrls: 'without-subfolders',
 
     footer: {
       message: '本网站采用 CC BY-NC-SA 4.0 许可协议进行许可授权',
