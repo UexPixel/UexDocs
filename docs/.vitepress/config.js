@@ -85,9 +85,13 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/UexPixel/UexDocs' },
     ],
     
-    lastUpdated: true,
-    lastUpdatedText: '上次更新',
-    
+    lastUpdated: true,// 上次更新开关
+    lastUpdatedText: '上次更新',// 上次更新时间显示文本
+    docFooter: {
+      prev: '上一节',
+      next: '下一节',
+    },// 文档底部文本
+
     cleanUrls: 'without-subfolders',
 
     footer: {
