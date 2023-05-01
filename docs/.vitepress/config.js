@@ -16,9 +16,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: '',
-        apiKey: '',
-        indexName: '...',
+        appId: 'LJLWEZEPX9',
+        apiKey: 'a79032461d1af159908ba88090c6c7cb',
+        indexName: 'uexpixel',
         locales: {
           zh: {
             placeholder: '搜索文档',
